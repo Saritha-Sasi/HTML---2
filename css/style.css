@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height:21px;
+    margin-bottom: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #EAEBED;
+    color:#1c1d1f;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Navbar */
+
+.nav-section {
+    padding-top: 20px;
+}
+
+.nav-section ul li a, .nav-section a, .nav-section ul li.nav-search {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 40.54px;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 50px;
+    padding: 5px 25px;
+}
+
+a.navbar-brand {
+    padding: 5px 0;
+}
+
+
+.menu-item {
+    background-color: #fff;
+    border-radius: 25px;
+}
+.menu-item li {
+    padding: 0 15px;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.menu-item img {
+    width: 18px;
+    margin-top: -6px;
+}
+
+.nav-section {
+    place-items: center;
+}
+.menu-item img, .menu-item i {
+    margin-right: 5px;
+}
+
+li.nav-search {
+    padding-right: 0 !important;
+}
+li.nav-search i {
+    background: #eaebed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    padding-right: 0 !important;
+}
+.nav-section h5 {
+    color: #fff;
+    margin: 0;
+    background: #163e3d;
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    line-height: 40px;
+    text-align: center;
+}
+/*body*/
+.card {
+    border: 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.groth-data {
+    border: 1px solid #cacdd2;
+    padding: 15px;
+    border-radius: 6px;
+}
+.notes-icon img {
+    width: 45px;
+    margin-top: -5px;
+}
+
+.notes-icon {
+    margin-right: 10px;
+}
+.notes-div .card{
+    border-left: 5px solid #f5a846;
+    box-shadow: 0px 4px 4px 0px #00000017;
+}
+.progress-div h1 span {
+    color: #163e3d;
+    font-size: 11px;
+    font-weight: 600;
+    background: #b7eecfc7;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+.progress-div h1 span {
+    color: #163e3d;
+    font-size: 11px;
+    font-weight: 600;
+    background: #b7eecfc7;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+
+.progress-div ul {
+    padding: 0;
+    margin: 0;
+}
+
+.progress-data ul li {
+    list-style: none;
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.progress-data ul li i {
+    padding-right: 15px;
+}
+
+.right-section {
+    align-items: center;
+    margin-top: 42px;
+}
+
+.line {
+    width: 50px;
+    height: 2px;
+    background: #000;
+    margin-bottom: 10;
+}
+
+.right-section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #F5A846;
+    margin: 20px 0;
+}
+.progress-div h1 span.todo-label {
+    color: #000;
+    font-size: 11px;
+    font-weight: 600;
+    background: #ffe0b7;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+
+.progress-div h1 span.event-label {
+    color: #000;
+    font-size: 11px;
+    font-weight: 600;
+    background: #d7d5d5;
+    padding: 5px 20px;
+    border-radius: 25px;
+    margin-left: 15px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .menu-item li {
+        padding: 0 10px;
+    }
+
+    .nav-section ul li a,
+    .nav-section a {
+        font-size: 0.9rem;
+    }
+
+    
+}
+
+
+@media (max-width: 991px) {
+    .nav-section button.navbar-toggler {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+}
+@media(max-width:576px){
+    .notes-icon img {
+        width: 145px;
+        margin-top: -5px;
+    }
+}
+
+@media (min-width:315px) and (max-width: 450px) {
+   
+}
